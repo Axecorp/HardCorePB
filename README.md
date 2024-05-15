@@ -1,1 +1,1 @@
-# HardCorePB
+# Stature_Victor_WordpressTemplate

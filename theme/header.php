@@ -35,4 +35,6 @@
     }
   ?>">
 
-  <div class="all">
+<div <?php body_class('all'); ?> class="all">
+  <?php require_once( get_template_directory() . '/navigation.php' ); ?>
+  

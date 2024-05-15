@@ -1,0 +1,59 @@
+header{
+    padding: 0 40px;
+    background: $white;
+    .header-container{
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 30px 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header-links{
+            display: flex;
+            align-items: center;
+            grid-column-gap: 20px;
+            .site-logo{
+                img{
+                    
+                }    
+            }
+            .nav-container{
+                .nav-wrap{
+                    display: flex;
+                    align-items: center;
+                    grid-column-gap: 20px;
+                    a{
+                        color: $black;
+                        font-family: $inter;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        white-space: nowrap;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                        &:hover{
+                            color: $orange;    
+                        }
+                    }    
+                }    
+            }
+            .cart-link{
+                a{
+                    img{
+                        &:hover{
+                            filter: invert(1) sepia(1) saturate(5) hue-rotate(38deg);    
+                        }
+                    }    
+                }    
+            }
+            .header-buttons{
+                display: flex;
+                align-items: center;
+                grid-column-gap: 20px;
+                a{
+
+                }    
+            }     
+        }
+    }    
+}

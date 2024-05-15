@@ -11,6 +11,7 @@ Version: THEME_VERSION
 @import 'mixins';
 @import 'global'; 
 @import 'footer';
+@import 'header';
 
 // Navigation
 
@@ -25,4 +26,8 @@ Version: THEME_VERSION
 
 table.xdebug-error.xe-warning {
     display: none;
+}
+
+h2{
+   font-family: $brush, 'Arial', sans-serif;  
 }

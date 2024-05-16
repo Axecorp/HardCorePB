@@ -20,14 +20,11 @@ Version: THEME_VERSION
 
 
 // Blocks
-
+@import './components/banner';
+@import './components/points_section';
 // Shortcodes
 
 
 table.xdebug-error.xe-warning {
     display: none;
-}
-
-h2{
-   font-family: $brush, 'Arial', sans-serif;  
 }

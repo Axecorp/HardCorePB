@@ -1,0 +1,85 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding-bottom: 150px;
+    .banner-container{
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .banner-text-container{
+            .heading{
+                margin-top: 70px;
+                h1{
+                    white-space: nowrap;
+                    color: $purple;
+                    line-height: 1em;
+                    font-weight: 600;
+                    font-family: $brush;
+                    font-size: 160px;
+                }    
+            }
+            .subheading{
+                margin-bottom: 20px;
+                h2{
+                    font-size: 44px;
+                    font-family: $inter;
+                    font-weight: 700;
+                    color: $white;
+                    font-style: normal;
+                }    
+            }
+            .subtext{
+                p{
+                    font-family: $lato;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: rgba(80,80,80,0.5);
+                }    
+            }
+            .bottom-text{
+                margin-top: 20px;
+                h4{
+                    font-family: $lato;
+                    font-style: normal;
+                    font-weight: 00;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }    
+            }
+            .banner-link{
+                margin-top: 35px;
+                a{
+                    padding: 15px 50px;
+                    background: $purple;
+                    border-radius: 50px;
+                    font-size: 16px;
+                    color: $white;
+                    font-family: $inter;
+                    transition: box-shadow 0.5s ease;
+                    &:hover{
+                        box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);    
+                    }
+                }    
+            }    
+        }
+        .banner-image-container{
+            display: flex;
+            flex: 0 0 58%;
+            overflow: hidden;
+            justify-content: left;
+            margin-top: -140px;
+            height: 900px;
+            .image-wrap{
+                img{
+
+                }    
+            }    
+        }    
+    }    
+}

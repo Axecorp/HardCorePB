@@ -8,19 +8,23 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        .site-logo{
+            img{
+                flex: 0 0 20%;        
+            }    
+        }
         .header-links{
             display: flex;
             align-items: center;
+            justify-content: space-between;
             grid-column-gap: 20px;
-            .site-logo{
-                img{
-                    
-                }    
-            }
+            flex: 0 0 77%;  
             .nav-container{
+                flex: 0 0 62%;
                 .nav-wrap{
                     display: flex;
                     align-items: center;
+                    justify-content: space-between;
                     grid-column-gap: 20px;
                     a{
                         color: $black;
@@ -38,20 +42,35 @@ header{
                 }    
             }
             .cart-link{
+                padding: 0 10px;
                 a{
-                    img{
+                    svg{
+                        transition: all 0.3s ease;
                         &:hover{
-                            filter: invert(1) sepia(1) saturate(5) hue-rotate(38deg);    
-                        }
-                    }    
+                            path{
+                                fill: $orange;  
+                            }   
+                        }    
+                    }   
                 }    
             }
             .header-buttons{
                 display: flex;
                 align-items: center;
-                grid-column-gap: 20px;
+                grid-column-gap: 10px;
                 a{
-
+                    border: 2px solid $orange;
+                    padding: 15px 50px;
+                    font-family: $inter;
+                    font-size: 20px;
+                    font-weight: 600;
+                    background: $orange;
+                    border-radius: 50px;
+                    color: $black;
+                    transition: all 0.3s ease;
+                    &:hover{
+                        background: $white;    
+                    }
                 }    
             }     
         }

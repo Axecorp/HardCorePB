@@ -26,6 +26,9 @@
             case 'points_section':
               include 'blocks/points_section.php';
               break;
+            case 'animated_blurb':
+              include 'blocks/animated_blurb.php';
+              break;
             
           }
         }

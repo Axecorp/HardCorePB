@@ -31,4 +31,18 @@ body {
 }
 
 
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@include keyframes(rotation) {
+    0%, 100%  {
+        transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+}
 

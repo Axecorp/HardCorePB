@@ -110,6 +110,38 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_664b827dce30e": {
+                    "key": "layout_664b827dce30e",
+                    "name": "animated_blurb",
+                    "label": "Animated Blurb",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_664b827fce311",
+                            "label": "field",
+                            "name": "field",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_664b81cb54254"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -146,5 +178,5 @@
     "active": true,
     "description": "Block Chooser for all content types that will have blocks.",
     "show_in_rest": 0,
-    "modified": 1715875645
+    "modified": 1716224652
 }

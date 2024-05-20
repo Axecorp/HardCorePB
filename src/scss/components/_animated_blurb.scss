@@ -1,0 +1,55 @@
+.animated-blurb{
+    padding: 0 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .animated-blurb-container{
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .animated-img-container{
+            img{
+                margin-top: -100px;
+                animation: rotation 4s linear infinite;
+            }
+        }
+        .animated-text-container{
+            .animated-text-top{
+                .at-left{
+                    img{
+                        
+                    }
+                }
+                .at-right{
+                    .underlined-heading{
+                        .text{
+                            h4{
+                                
+                            }    
+                        }
+                        .img{
+                            img{
+                                
+                            }
+                        }    
+                    }    
+                }    
+            }
+            .animated-heading{
+                h2{
+                    
+                }
+            }
+            .animated-button{
+                a{
+                    
+                }    
+            }    
+        }    
+    }    
+}

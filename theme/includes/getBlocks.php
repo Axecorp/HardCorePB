@@ -29,6 +29,12 @@
             case 'animated_blurb':
               include 'blocks/animated_blurb.php';
               break;
+            case 'cards_section':
+              include 'blocks/cards_section.php';
+              break;
+            case 'our_gallery':
+              include 'blocks/our_gallery.php';
+              break;
             
           }
         }

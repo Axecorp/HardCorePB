@@ -8,10 +8,11 @@
     margin-top: 100px;
     margin-bottom: 50px;
     .animated-blurb-container{
-        max-width: 1600px;
+        max-width: 1700px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .animated-img-container{
             img{
                 margin-top: -100px;
@@ -19,8 +20,14 @@
             }
         }
         .animated-text-container{
+            flex: 0 0 40%;
             .animated-text-top{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 140px;
+                align-items: center;
                 .at-left{
+                    margin-right: 30px;
                     img{
                         
                     }
@@ -28,11 +35,18 @@
                 .at-right{
                     .underlined-heading{
                         .text{
+                            font-weight: 400;
+                            margin-right: 0px;
+                            text-align: center;
                             h4{
-                                
+                                font-family: $brush;
+                                font-size: 40px;
+                                color: white;
                             }    
                         }
                         .img{
+                            display: flex;
+                            justify-content: center;
                             img{
                                 
                             }
@@ -42,12 +56,29 @@
             }
             .animated-heading{
                 h2{
-                    
+                    font-family: $inter;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: white;
                 }
             }
             .animated-button{
+                margin-top: 10px;
                 a{
-                    
+                    padding: 15px 50px;
+                    background-color: $orange;
+                    border-radius: 50px;
+                    color: white;
+                    font-size: 18px;
+                    font-family: $inter;
+                    text-decoration: none;
+                    font-weight: 600;
+                    display: inline-block;
+                    transition: box-shadow 0.5s ease;
+                    &:hover{
+                        box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);    
+                    }
                 }    
             }    
         }    

@@ -1,0 +1,90 @@
+.cards-section{
+    padding: 0 40px;
+    .cards-section-container{
+        margin-top: 100px;
+        flex-wrap: wrap;
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+        .underlined-heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .text{
+                h4{
+                    text-align: center;
+                    font-family: $brush;
+                    font-size: 70px;
+                    font-weight: 400;
+                    color: $purple;
+                }    
+            }    
+            .img{
+                img{
+                    
+                }    
+            }
+        }
+        .cards-wrapper{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            .cards-wrap{
+                display: flex;
+                justify-content: space-between;
+                .card-single{
+                    max-width: 420px;
+                    display: block;
+                    margin: 0px 20px;
+                    .single-card-wrap{
+                        width: 100%;
+                        .card-underlined-heading{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .text{
+                                h4{
+                                    font-family: $brush;
+                                    font-weight: 400;
+                                    font-size: 50px;
+                                    text-align: center;
+                                    color: $purple;
+                                }    
+                            }
+                            .img{
+                                img{
+                                    
+                                }    
+                            }    
+                        }
+                        .single-card-img{
+                            width: 100%;
+                            margin-top: 20px;
+                            position: relative;
+                            border-radius: 20px;
+                            &:hover{
+                                &::before{
+                                    opacity: 1;     
+                                }    
+                            }
+                            &::before{
+                                content: "";
+                                position: absolute;
+                                inset: 0;
+                                opacity: 0;
+                                border-radius: 20px;
+                                z-index: 6;
+                                transition: all 0.4s ease;
+                                background: rgba(0,0,0,0.2)   
+                            }
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 20px;
+                            }    
+                        }    
+                    }    
+                }    
+            }    
+        }    
+    }    
+}

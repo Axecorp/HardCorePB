@@ -23,6 +23,26 @@
             "append": ""
         },
         {
+            "key": "field_664f9524f78e3",
+            "label": "Subheading",
+            "name": "subheading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_664ceb3681818",
             "label": "Gallery Images",
             "name": "gallery_images",
@@ -91,5 +111,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1716317004
+    "modified": 1716491577
 }

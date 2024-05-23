@@ -1,0 +1,150 @@
+.contact{
+    .contact-container{
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60px;
+        @media (max-width:1620px){
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        @media (max-width:767px){
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .heading{
+            padding: 40px 0 80px;
+            h2{
+                text-align: center;
+                font-family: $lato;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 140px;
+                color: #482366;                
+                @media(max-width:1024px){
+                    font-size: 120px;
+                }
+                @media(max-width:850px){
+                    font-size: 80px;
+                }
+                @media(max-width:600px){
+                    font-size: 80px;
+                    margin: -32px;
+                }
+                @media(max-width:560px){
+                    font-size: 50px;
+                    
+                }
+                @media(max-width:560px){
+                    font-size: 40px;
+                }
+            }    
+        }    
+            #field_1_6{
+                .gfield_label {
+                    font-family: $inter !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: 20px !important;
+                    color: $purple !important;
+                    padding-bottom: 20px !important;
+                    margin-bottom: 0px !important;
+                    margin-left: 20px !important;
+                }
+                input{
+                    background: rgba(217, 217, 217, 0.5);
+                    border: 1px solid $purple;
+                    border-radius: 20px;
+                    padding: 30px;    
+                }
+                .gform-field-label--type-sub{
+                    display: none;    
+                }
+            }
+            #field_1_5{
+                .gfield_label {
+                    font-family: $inter !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: 20px !important;
+                    color: $purple !important;
+                    padding-bottom: 20px !important;
+                    margin-bottom: 0px !important;
+                    margin-left: 20px !important;
+                }
+                input{
+                    background: rgba(217, 217, 217, 0.5);
+                    border: 1px solid $purple;
+                    border-radius: 20px;
+                    padding: 30px;    
+                }
+                .gform-field-label--type-sub{
+                    display: none;    
+                }
+            }
+            #field_1_3{
+                .gfield_label {
+                    font-family: $inter !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: 20px !important;
+                    color: $purple !important;
+                    padding-bottom: 20px !important;
+                    margin-bottom: 0px !important;
+                    margin-left: 20px !important;
+                }
+                input{
+                    background: rgba(217, 217, 217, 0.5);
+                    border: 1px solid $purple;
+                    border-radius: 20px;
+                    padding: 30px;    
+                }
+            }
+            #field_1_4{
+                .gfield_label {
+                    font-family: $inter !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: 20px !important;
+                    color: $purple !important;
+                    padding-bottom: 20px !important;
+                    margin-bottom: 0px !important;
+                    margin-left: 20px !important;
+                }
+                input{
+                    background: rgba(217, 217, 217, 0.5);
+                    border: 1px solid $purple;
+                    border-radius: 20px;
+                    padding: 30px;    
+                }
+            }
+            #field_1_7{
+                .gfield_label {
+                    font-family: $inter !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: 20px !important;
+                    color: $purple !important;
+                    padding-bottom: 20px !important;
+                    margin-bottom: 0px !important;
+                    margin-left: 20px !important;
+                }
+                textarea{
+                    background: rgba(217, 217, 217, 0.5);
+                    border: 1px solid $purple;
+                    border-radius: 20px;
+                    padding: 30px;    
+                }
+            }
+            #gform_submit_button_1{
+                padding: 15px 50px;
+                font-family: $inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                background: $purple;
+                border-radius: 50px;
+                color: white;
+            }
+    }    
+}

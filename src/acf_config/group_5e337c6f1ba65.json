@@ -206,6 +206,166 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_664f86a74e329": {
+                    "key": "layout_664f86a74e329",
+                    "name": "reviews",
+                    "label": "Reviews",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_664f86a94e32c",
+                            "label": "field",
+                            "name": "field",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_664f862bdcdac"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_664f97b24d9ae": {
+                    "key": "layout_664f97b24d9ae",
+                    "name": "story_gradient",
+                    "label": "Story Gradient",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_664f97b54d9b1",
+                            "label": "field",
+                            "name": "field",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_664f976e8e44d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_664f9acf93a61": {
+                    "key": "layout_664f9acf93a61",
+                    "name": "story_george",
+                    "label": "Story George",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_664f9ad293a64",
+                            "label": "field",
+                            "name": "field",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_664f9a8c2ce5c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_664f9f972b1ea": {
+                    "key": "layout_664f9f972b1ea",
+                    "name": "contact_form",
+                    "label": "Contact Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_664f9f9a2b1ed",
+                            "label": "field",
+                            "name": "field",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_664f9f7d84705"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_664fad2af958d": {
+                    "key": "layout_664fad2af958d",
+                    "name": "blogs",
+                    "label": "Blogs",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_664fad2ff9590",
+                            "label": "field",
+                            "name": "field",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_664fab5d3f1e4"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -242,5 +402,5 @@
     "active": true,
     "description": "Block Chooser for all content types that will have blocks.",
     "show_in_rest": 0,
-    "modified": 1716317029
+    "modified": 1716497721
 }

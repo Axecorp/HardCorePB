@@ -35,6 +35,21 @@
             case 'our_gallery':
               include 'blocks/our_gallery.php';
               break;
+            case 'reviews':
+              include 'blocks/reviews.php';
+              break;
+            case 'story_gradient':
+              include 'blocks/story_gradient.php';
+              break;
+            case 'story_george':
+              include 'blocks/story_george.php';
+              break;
+            case 'contact_form':
+              include 'blocks/contact_form.php';
+              break;
+            case 'blogs':
+              include 'blocks/blogs.php';
+              break;
             
           }
         }

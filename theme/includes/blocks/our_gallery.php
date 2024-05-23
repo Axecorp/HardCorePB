@@ -8,6 +8,9 @@
                 <img src="<?php echo "/wp-content/uploads/2024/05/Vector-2.png" ?>" alt="">
             </div>
         </div>
+        <?php if($block['heading']){ ?>
+            <h6><?php echo $block['subheading']; ?></h6>
+        <?php } ?>
         <div class="gallery-images">
             <div class="gallery-wrapper">
                 <?php foreach($block['gallery_images'] as $gallery){ ?>

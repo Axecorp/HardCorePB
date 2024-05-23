@@ -1,0 +1,158 @@
+.reviews{
+    margin-bottom:80px;
+    .inner{
+        max-width: 1560px;
+        margin: 0 auto;
+        position:relative;
+        padding-top:100px;
+        @media(max-width:1600px){
+            padding:0px 40px;
+            max-width:100%;
+            padding-top:100px;
+        }
+        @include responsive(xs){
+            padding:0px 20px;
+            padding-top:80px;
+        }
+        .testimonial-slider-main{
+            position:relative;
+            .review-item{
+                background-color:$purple;
+                padding:120px 0px 90px 0px;
+                position:relative;
+                border-radius: 30px;
+                overflow:hidden;
+                .review-wrap{
+                    position:relative;
+                    z-index:1;
+                    .text-wrap{
+                        max-width:600px;
+                        margin:0 auto;
+                        text-align: center;
+                        position: relative;
+                        @include responsive(sm){
+                            max-width:100%;
+                            padding:0px 20px;
+                        }
+                        .picture{
+                            display: flex;
+                            justify-content: center;
+                            img{
+                                border-radius: 50%;
+                                border: 2px solid $orange;   
+                                width: 130px;
+                                height: 130px;
+                                object-fit: cover; 
+                            }    
+                        }
+                        .heading{
+                            font-size:40px;
+                            margin-top: 10px;
+                            font-weight:700;
+                            line-height:100%;
+                            color:#fff;
+                            font-family:$inter;
+                            margin-bottom:20px;
+                            @include responsive(xs){
+                                font-size:28px;
+                            }
+                        }
+                        .location{
+                            font-size: 25px;
+                            font-weight: 700;
+                            line-height: 100%;
+                            color: #fff;
+                            font-family: $inter;
+                            margin-bottom: 20px;  
+                            @include responsive(xs){
+                                font-size:20px;
+                            }  
+                        }
+                        .review-desc{
+                            font-family: $lato;
+                            font-weight: 400;
+                            font-size: 20px;
+                            margin-top: 10px;
+                            color:#fff;
+                            @include responsive(xs){
+                                font-size:16px;
+                            }
+                        }
+                    }
+                }
+                .background-wrap{
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                }
+                .top-pattern{
+                    position:absolute;
+                    top:0;
+                    left:50%;
+                    transform:translateX(-50%);
+                    svg{
+                        display:block;
+                    }
+                }
+                .bottom-pattern{
+                    position:absolute;
+                    bottom:0;
+                    left:50%;
+                    transform:translateX(-50%);
+                    svg{
+                        display:block;
+                    }
+                }
+            }
+            .slick-prev{
+                background:none;
+                border:none;
+                outline:none;
+                position:absolute;
+                left:100px;
+                top:50%;
+                transform:translateY(-50%);
+                z-index:2;
+                &::before
+                    {
+                        content: "";    
+                    }
+                @include responsive(md){
+                    left:40px;
+                }
+                @include responsive(sm){
+                    svg{
+                        width:35px;
+                        height:35px;
+                    }
+                }
+            }
+            .slick-next{
+                background:none;
+                border:none;
+                outline:none;
+                position:absolute;
+                right:100px;
+                top:50%;
+                transform:translateY(-50%);
+                z-index:2;
+                &::before
+                    {
+                        content: "";    
+                    }
+                @include responsive(md){
+                    right:40px;
+                }
+                @include responsive(sm){
+                    svg{
+                        width:35px;
+                        height:35px;
+                    }
+                }
+            }
+        }
+ 
+    }
+}

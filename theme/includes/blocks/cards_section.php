@@ -17,9 +17,6 @@
                                 <div class="text">
                                     <h4><?php echo $card['title']; ?></h4>
                                 </div>
-                                <div class="img">
-                                    <img src="<?php echo "/wp-content/uploads/2024/05/Vector-1.png" ?>" alt="">
-                                </div>
                             </div>
                             <div class="single-card-img">
                                 <img src="<?php echo $card['image'] ?>" alt="">
